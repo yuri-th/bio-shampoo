@@ -1,0 +1,2510 @@
+@charset "UTF-8";
+/* 文字コードの指定 */
+
+/* Webフォントの指定 */
+@font-face {
+  font-family: "NotoSansJP";
+  src: url("../fonts/NotoSansJP-Medium.woff");
+}
+
+@font-face {
+  font-family: "HannariMincho";
+  src: url("../fonts/HannariMincho-Regular.otf");
+}
+
+@font-face {
+  font-family: "Philosopher";
+  src: url("../fonts/Philosopher-Regular.ttf");
+}
+
+@font-face {
+  font-family: "GenShinGothic-Bold";
+  src: url("../fonts/GenShinGothic-Bold.ttf");
+}
+
+@font-face {
+  font-family: "GenShinGothic-Medium";
+  src: url("../fonts/GenShinGothic-Medium.ttf");
+}
+
+/* ページ全体 */
+body {
+  font-family: "NotoSansJP";
+  font-size: 28px;
+  color: #212529;
+}
+
+/* ヘッダー */
+
+.header {
+  height: 66.1vw;
+  margin: 0;
+  padding: 0.5vw 1.54vw 0 51.54vw;
+  background-image: url("../images/header_bg.jpg");
+  background-size: cover;
+}
+
+
+h2 {
+  font-family: "HannariMincho";
+  font-size: 5.12vw;
+  font-weight: normal;
+  letter-spacing: 0.59vw;
+  color: #63977e;
+  margin-bottom: 2.2vw;
+}
+
+h1 {
+  font-family: "NotoSansJP";
+  font-size: 2.05vw;
+  font-weight: normal;
+  letter-spacing: 0.16vw;
+}
+
+.tennen {
+  font-family: "NotoSansJP";
+  font-size: 2.49vw;
+  font-weight: normal;
+  margin-top: 1.5vw;
+  letter-spacing: 0.04vw;
+}
+
+.tennen1 {
+  font-family: "Philosopher";
+  font-size: 2.49vw;
+  letter-spacing: 0.1vw;
+  top: -0.22vw;
+}
+
+.purpleline {
+  background: linear-gradient(transparent 83%, #b391a2 83%);
+  padding-bottom: 0.01vw;
+}
+
+.tennen2 {
+  font-family: "HannariMincho";
+  font-size: 3.29vw;
+  font-weight: normal;
+  margin-top: 0.9vw;
+  letter-spacing: 0.18vw;
+}
+
+.tennen2line {
+  background: linear-gradient(transparent 81%, #b391a2 81%);
+  padding-bottom: 1vw;
+}
+
+.shampoo img {
+  margin: 1.3vw 1vw 0 7.5vw;
+  width: 28.55vw;
+  height: 26.86vw;
+}
+
+
+
+/* インスタ */
+
+.insta {
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 80px;
+  padding-bottom: 0px;
+}
+
+.instacopy {
+  padding-left: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.instalogo2 {
+  margin-top: -6px;
+  font-family: "HannariMincho";
+  font-size: 95px;
+  font-weight: normal;
+  color: #000000;
+  letter-spacing: 1px;
+}
+
+.instaword {
+  font-family: "NotoSansJP";
+  font-size: 34px;
+  font-weight: normal;
+  margin: 10px auto;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.insta .container {
+  margin-left: 58px;
+  margin-right: 58px;
+  margin-bottom: 81px;
+  padding-top: 19px;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+
+}
+
+.box {
+  width: 168px;
+  padding-bottom: 70px;
+  font-weight: normal;
+  font-size: 16px;
+  border: solid 1px #000000;
+
+}
+
+
+
+.icon {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  text-indent: 10px;
+}
+
+.icon-img2 {
+  margin-top: 19px;
+  padding-left: 7px;
+}
+
+.icon-txt {
+  margin-top: 10px;
+
+}
+
+
+.sampletext {
+  font-family: "NotoSansJP";
+  font-size: 16px;
+  margin-top: 0px;
+  padding: 3px 7px 3px 7px;
+  line-height: 22px;
+}
+
+.sampledate {
+  font-family: "NotoSansJP";
+  font-size: 16px;
+  margin-top: 11px;
+  padding-right: 8px;
+  text-align: right;
+
+}
+
+/* キャンペーン */
+
+.campaign-space {
+  margin: 0;
+  width: 100%;
+  background: linear-gradient(to bottom, #e9fbf6, #edf6f1);
+}
+
+.campaign {
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 55px;
+  padding-bottom: 64px;
+  background: linear-gradient(to bottom, #e9fbf6, #edf6f1);
+}
+
+.campaign-word {
+  padding-top: 0px;
+  margin-left: 58px;
+  background-image: url("../images/cv_ribbon_bg.png");
+  background-size: 898px 92px;
+  background-repeat: no-repeat;
+  background-position: 6px 23px;
+
+}
+
+.campaign-word2 {
+  padding-left: 75px;
+  font-family: "HannariMincho";
+  font-size: 58px;
+  font-weight: normal;
+  letter-spacing: 0px;
+  line-height: 113px;
+  color: #ffffff;
+  align-items: center;
+}
+
+.container2 {
+  display: flex;
+
+}
+
+.campaign-sample {
+  padding: 78px 0 0 18px;
+}
+
+.sample200 {
+  padding-top: 11px;
+  padding-left: 29px;
+  letter-spacing: 1.5px;
+}
+
+
+.cam-bio {
+  font-family: "HannariMincho";
+  font-size: 50px;
+  font-weight: normal;
+  letter-spacing: 0.6px;
+  margin-bottom: 23px;
+  padding: 23px 5px 0px 15px;
+  line-height: 50px;
+}
+
+.cam-bio2 {
+  font-family: "NotoSansJP";
+  font-size: 28px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  padding-left: 3px;
+}
+
+hr {
+  width: 610px;
+  margin-top: 0px;
+  padding-top: 0;
+  border: solid thin 1px;
+}
+
+.container3 {
+  display: flex;
+}
+
+.bio-price {
+  font-family: Philosopher, NotoSansJP;
+  font-size: 28px;
+  font-weight: normal;
+  letter-spacing: 1.8px;
+  padding-top: 34px;
+  padding-left: 18px;
+  line-height: 11.5px;
+}
+
+.bio-first {
+  letter-spacing: 4px;
+  padding-top: 0px;
+}
+
+.bio-price2 {
+  font-family: "Philosopher";
+  font-size: 92px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  padding-top: 3px;
+  padding-left: 10px;
+  color: #ff0000;
+}
+
+.cam-bio3 {
+  font-family: "NotoSansJP";
+  font-size: 28px;
+  font-weight: normal;
+  letter-spacing: 0;
+  padding-left: 3px;
+  color: #ff0000;
+}
+
+.cam-bio4 {
+  font-family: "NotoSansJP";
+  font-size: 28px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  padding-left: 2px;
+  color: black;
+}
+
+.try-icon {
+  margin: 31px auto 0 auto;
+  width: 610px;
+  height: 96px;
+  border-radius: 10px;
+  background: linear-gradient(to bottom, #afc8bb, #91b3a2);
+}
+
+.try-word {
+  font-family: "HannariMincho";
+  font-size: 52px;
+  font-weight: normal;
+  letter-spacing: 6.5px;
+  color: #ffffff;
+  padding-left: 132px;
+  line-height: 90px;
+}
+
+.kaiyaku {
+  margin-top: 18px;
+  padding-left: 18px;
+  font-size: 42px;
+  color: #bc0000;
+  letter-spacing: 3px;
+  line-height: 34px;
+}
+
+.kaiyakuline {
+  background: linear-gradient(transparent 83%, #b391a2 83%);
+  padding-bottom: 3.5px;
+}
+
+.kaiyaku2 {
+  margin-top: 0;
+  padding-top: 0;
+  padding-left: 14px;
+  letter-spacing: 4.5px;
+  line-height: 0px;
+}
+
+.campaign a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* 自分の髪に満足 */
+
+.myhair-space {
+  margin: 0;
+  width: 100%;
+  background-color: #f0f0f0;
+  background-image: url("../images/empathy_bg.jpg");
+  background-size: 1366px auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.myhair {
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 68px;
+  padding-bottom: 49px;
+}
+
+.myhair-title {
+  margin-top: 0;
+  padding-top: 0;
+  text-align: center;
+  font-family: "HannariMincho";
+  font-size: 63px;
+  font-weight: normal;
+  letter-spacing: 0px;
+  color: #63977e;
+}
+
+.myhair-line {
+  background: linear-gradient(transparent 80%, #b391a2 80%);
+  padding-bottom: 17px;
+}
+
+.hair-list {
+  list-style: none;
+  margin-top: 100px;
+  margin-left: 0px;
+  padding-left: 18px;
+}
+
+.hair-list01 {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+}
+
+.hair-list01::before {
+  content: "";
+  background-size: cover;
+  background-image: url(../images/empathy_check.png);
+  width: 28px;
+  height: 26px;
+}
+
+.hairlist-text {
+  font-family: "NotoSansJP";
+  font-size: 28px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  line-height: 86px;
+}
+
+.hairtext {
+  font-family: "NotoSansJP";
+  font-size: 28px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  padding-left: 20px;
+}
+
+/* 原因はシャンプー */
+
+.cause-space {
+  margin: 0;
+  width: 100%;
+  background: linear-gradient(to bottom, #e0f9f2, #b5dfcc);
+}
+
+.cause {
+  position: relative;
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 70px;
+  padding-bottom: 53px;
+  background: linear-gradient(to bottom, #e0f9f2, #b5dfcc);
+}
+
+.cause-title {
+  margin-top: 0;
+  padding-left: 15px;
+  font-family: "HannariMincho";
+  font-size: 51px;
+  font-weight: normal;
+  letter-spacing: -1.5px;
+  color: #63977e;
+}
+
+.cause-line {
+  background: linear-gradient(transparent 81%, #b391a2 81%);
+  padding-bottom: 10px;
+}
+
+.cause .container {
+  display: flex;
+  justify-content: center;
+  column-gap: 23px;
+  margin-bottom: 81px;
+  padding-top: 4px;
+  padding-bottom: 0;
+}
+
+.cause-text {
+  width: 539px;
+  font-family: "NotoSansJP";
+  font-size: 28px;
+  font-weight: normal;
+  letter-spacing: 0;
+  line-height: 44.9px;
+  padding-left: 10px;
+}
+
+.exhibit01 {
+  padding-top: 36px;
+}
+
+.cause .container2 {
+  z-index: 30;
+  width: 326px;
+  height: 115px;
+  position: absolute;
+  bottom: -55px;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  background-image: url(../images/exhibit_arrow.png);
+}
+
+.triangle-text {
+  font-family: "HannariMincho";
+  color: #ffffff;
+  font-size: 56px;
+  letter-spacing: 0px;
+  padding-left: 80px;
+}
+
+/* 年齢にあわせたシャンプー */
+
+.age-space {
+  margin: 0;
+  width: 100%;
+  background: linear-gradient(to bottom, #ffffff, #f2f1ee);
+}
+
+.age {
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 129px;
+  padding-bottom: 73px;
+  background: linear-gradient(to bottom, #ffffff, #f2f1ee);
+}
+
+.age-title {
+  margin-top: 0;
+  padding-left: 15px;
+  font-family: "HannariMincho";
+  font-size: 51px;
+  font-weight: normal;
+  letter-spacing: -1.5px;
+  color: #63977e;
+}
+
+.age-line {
+  background: linear-gradient(transparent 81.5%, #b391a2 81.5%);
+  padding-bottom: 10px;
+}
+
+.age .container {
+  display: flex;
+  justify-content: center;
+  column-gap: 26px;
+  margin-bottom: 10px;
+  padding-top: 26px;
+  padding-bottom: 0;
+}
+
+.exhibit2image {
+  padding-top: 15px;
+}
+
+.age-text {
+  width: 539px;
+  font-family: "NotoSansJP";
+  font-size: 28px;
+  font-weight: normal;
+  letter-spacing: 0;
+  line-height: 39px;
+}
+
+.age-text2 {
+  padding-top: 10.5px;
+}
+
+/* こだわりポイント*/
+
+.point-space {
+  margin: 0;
+  width: 100%;
+  background-color: #fafafa;
+}
+
+.point {
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 70px;
+  padding-bottom: 58px;
+  background-color: #fafafa;
+}
+
+.point-title {
+  text-align: center;
+  margin-top: 0;
+  padding-left: 109px;
+  padding-right: 110px;
+  font-family: "HannariMincho";
+  font-size: 63px;
+  font-weight: normal;
+  letter-spacing: 0.6px;
+  line-height: 75px;
+  color: #63977e;
+}
+
+.point .container {
+  display: flex;
+  align-items: flex-start;
+  column-gap: 19px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 12.5px;
+}
+
+.point h3 {
+  margin-top: 0;
+  margin-bottom: 18px;
+  padding-left: 13px;
+  font-family: "HannariMincho";
+  font-size: 48px;
+  font-weight: normal;
+  letter-spacing: 0.8px;
+}
+
+.point-line {
+  background: linear-gradient(transparent 80%, #b391a2 80%);
+  padding-bottom: 14px;
+}
+
+.point hr {
+  width: 550px;
+  margin-top: 33.5px;
+  margin-bottom: 11px;
+  margin-left: 9px;
+  border: solid thin 1px;
+}
+
+.point-text2 {
+  width: 539px;
+  font-family: "NotoSansJP";
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: 41.5px;
+  padding-left: 11px;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.benefit1 {
+  padding-top: 12px;
+}
+
+
+.dirt-text {
+  font-family: "NotoSansJP";
+  font-size: 24px;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.point .container2 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row-reverse;
+  column-gap: 6px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 17.5px;
+}
+
+.point-text02 {
+  margin-left: 0px;
+  padding-left: 0px;
+  padding-right: 13px;
+
+}
+
+.benefit2 {
+  padding-top: 12px;
+}
+
+.damage-text {
+  font-family: "NotoSansJP";
+  font-size: 24px;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.point .container3 {
+  display: flex;
+  align-items: flex-start;
+  column-gap: 19px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 16px;
+}
+
+.plant-text {
+  font-family: "NotoSansJP";
+  font-size: 24px;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.point .container4 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row-reverse;
+  column-gap: 6px;
+  margin-bottom: 0px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+
+.strict {
+  line-break: strict;
+
+}
+
+.collagen-text {
+  font-family: "NotoSansJP";
+  font-size: 24px;
+  text-align: center;
+  width: 330px;
+  margin-top: 0px;
+  padding-left: 50px;
+  line-height: 33.5px;
+
+}
+
+/* シャンプーの使い方 */
+
+.usage-space {
+  margin: 0;
+  width: 100%;
+  background: linear-gradient(to bottom, #ffffff, #e5fbf5);
+}
+
+.usage {
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 70px;
+  padding-bottom: 65px;
+  background: linear-gradient(to bottom, #ffffff, #e5fbf5);
+}
+
+.usage h2 {
+  margin-top: 0;
+  text-align: center;
+  font-family: "HannariMincho";
+  font-size: 63px;
+  font-weight: normal;
+  letter-spacing: 0px;
+  color: #63977e;
+}
+
+
+.usage .container {
+  display: flex;
+  justify-content: center;
+  column-gap: 5px;
+  margin-bottom: 0px;
+  padding-left: 17px;
+  padding-top: 31px;
+  padding-bottom: 0;
+}
+
+.use-step1 {
+  padding-top: 32px;
+}
+
+.usage h3 {
+  font-family: "Philosopher";
+  font-size: 50px;
+  font-style: italic;
+  font-weight: normal;
+  line-height: 0;
+  padding-left: 7.5px;
+  padding-bottom: 0;
+
+}
+
+.stepline {
+  text-decoration: underline;
+}
+
+.step-text {
+  width: 480px;
+  font-family: "NotoSansJP";
+  font-size: 28px;
+  font-weight: normal;
+  letter-spacing: 0;
+  line-height: 44.9px;
+  padding-left: 10px;
+}
+
+.usage hr {
+  width: 1000px;
+  margin-top: 40px;
+  padding-top: 0;
+  border: solid thin 1px;
+}
+
+.usage .container2 {
+  display: flex;
+  justify-content: center;
+  column-gap: 5px;
+  margin-bottom: 0px;
+  padding-left: 17px;
+  padding-top: 0px;
+  padding-bottom: 0;
+}
+
+.use-step2 {
+  padding-top: 25px;
+}
+
+.usage .container2 h3 {
+  font-family: "Philosopher";
+  font-size: 50px;
+  font-style: italic;
+  font-weight: normal;
+  line-height: 0;
+  margin-top: 42.5px;
+  padding-left: 7.5px;
+  padding-bottom: 0;
+
+}
+
+.usage .container3 {
+  display: flex;
+  justify-content: center;
+  column-gap: 5px;
+  margin-bottom: 0px;
+  padding-left: 17px;
+  padding-top: 0px;
+  padding-bottom: 0;
+}
+
+.usage .container3 h3 {
+  font-family: "Philosopher";
+  font-size: 50px;
+  font-style: italic;
+  font-weight: normal;
+  line-height: 0;
+  margin-top: 42.5px;
+  padding-left: 7.5px;
+  padding-bottom: 0;
+
+}
+
+.usage .container4 {
+  display: flex;
+  justify-content: center;
+  column-gap: 5px;
+  margin-bottom: 0px;
+  padding-left: 17px;
+  padding-top: 0px;
+  padding-bottom: 0;
+}
+
+.usage .container4 h3 {
+  font-family: "Philosopher";
+  font-size: 50px;
+  font-style: italic;
+  font-weight: normal;
+  line-height: 0;
+  margin-top: 42.5px;
+  padding-left: 7.5px;
+  padding-bottom: 0;
+
+}
+
+.usage .container5 {
+  display: flex;
+  justify-content: center;
+  column-gap: 5px;
+  margin-bottom: 0px;
+  padding-left: 17px;
+  padding-top: 0px;
+  padding-bottom: 0;
+}
+
+.usage .container5 h3 {
+  font-family: "Philosopher";
+  font-size: 50px;
+  font-style: italic;
+  font-weight: normal;
+  line-height: 0;
+  margin-top: 42.5px;
+  padding-left: 7.5px;
+  padding-bottom: 0;
+
+}
+
+/* よくあるご質問*/
+
+.question-space {
+  margin: 0;
+  width: 100%;
+  background-color: #f1f0ed;
+}
+
+.question {
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 67px;
+  padding-bottom: 65px;
+  background-color: #f1f0ed;
+}
+
+.question h2 {
+  margin-top: 0;
+  text-align: center;
+  font-family: "HannariMincho";
+  font-size: 63px;
+  font-weight: normal;
+  letter-spacing: 0px;
+  color: #63977e;
+  padding-bottom: 41px;
+}
+
+
+.question .container_q {
+  display: flex;
+  margin-left: 16px;
+  margin-top: 14.5px;
+
+}
+
+.q-icon {
+  font-family: "Philosopher";
+  font-size: 54px;
+  letter-spacing: 0px;
+  color: #5d8974;
+  padding-right: 40px;
+}
+
+
+.question-text {
+  letter-spacing: -1px;
+  line-height: 40px;
+  padding-top: 19px;
+}
+
+.question .container_a {
+  display: flex;
+  margin-top: 18px;
+  margin-left: 16px;
+
+}
+
+.a-icon {
+  font-family: "Philosopher";
+  font-size: 54px;
+  letter-spacing: 0px;
+  color: #9d3e3e;
+  padding-right: 40px;
+}
+
+.answer-text {
+  width: 900px;
+  letter-spacing: -1px;
+  line-height: 40px;
+  padding-top: 15px;
+  padding-bottom: 29px;
+}
+
+.question hr {
+  width: 1000px;
+  padding-top: 0;
+  border: solid thin 1px;
+}
+
+/* お客様情報の入力*/
+
+.form-space {
+  margin: 0;
+  width: 100%;
+}
+
+.customer-form {
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 84px;
+  padding-bottom: 0px;
+  margin-bottom: 50px;
+}
+
+.customer-form h2 {
+  width: 987px;
+  margin-top: 0;
+  font-family: "GenShinGothic-Bold";
+  color: black;
+  font-size: 40px;
+  background-color: #f1efed;
+  text-decoration: none;
+  padding: 10.5px 0;
+  border-radius: 10px;
+  margin-left: 20px;
+  letter-spacing: 10px;
+}
+
+#contact_form_area {
+  width: 987px;
+  margin: 60px 18px 62.5px 18px;
+  padding: 42.5px 45px;
+  border: 1px solid #999;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-family: "GenShinGothic-Medium";
+}
+
+
+.form_column_name {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0;
+}
+
+.form_column_hurigana {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0;
+}
+
+.form_column_postcode {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0;
+}
+
+.form_column_prefectures {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0;
+}
+
+.form_column_cityname {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0;
+}
+
+.form_column_apartment {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0;
+}
+
+.form_column_telno {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0;
+}
+
+.form_column_email {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0;
+}
+
+.form_column_passcode {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0;
+}
+
+.form_column_parts {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 23px 0;
+
+}
+
+.form_label {
+  font-family: "GenShinGothic-Medium";
+  font-size: 24px;
+}
+
+.required_label {
+  font-family: "GenShinGothic-Medium";
+  color: #ffffff;
+  font-size: 24px;
+  background-color: #ff0000;
+  text-decoration: none;
+  padding: 9px 6.5px;
+  border-radius: 5px;
+}
+
+.any_label {
+  font-family: "GenShinGothic-Medium";
+  color: #ffffff;
+  font-size: 24px;
+  background-color: #808080;
+  text-decoration: none;
+  padding: 9px 6.5px;
+  border-radius: 5px;
+}
+
+
+.form_input {
+  width: 341px;
+  margin-left: 30px;
+}
+
+.form_parts {
+  width: 100%;
+  height: 61px;
+  padding: 6.8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.form_parts::placeholder {
+  font-size: 28px;
+}
+
+.formbox_length {
+  width: 618px;
+}
+
+.formbox_bottom {
+  padding-bottom: 29px;
+}
+
+#payment_form_area {
+  width: 350px;
+  text-align: left;
+  font-size: 28px;
+  font-family: "GenShinGothic-Medium";
+  margin-top: 35px;
+  padding-left: 35px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+#form_submit {
+  padding-bottom: 27.3px;
+  margin-top: 0;
+}
+
+#form_has_error {
+  height: 28px;
+  margin: 0;
+  color: #f00;
+  font-size: 20px;
+}
+
+#submit_button {
+  border: none;
+  width: 525px;
+  height: 114px;
+  font-family: "GenShinGothic-Bold";
+  color: #fff;
+  background: linear-gradient(to bottom, #91b3a2, #31a169);
+  font-size: 56px;
+  letter-spacing: 1.5px;
+  border-radius: 10px;
+}
+
+input[type="radio"] {
+  width: 1.8rem;
+  height: 1.8rem;
+  position: relative;
+  vertical-align: middle;
+  margin-right: 24px;
+  margin-left: 30px;
+  margin-bottom: 34.5px;
+  margin-top: 24px;
+}
+
+.radio_lb {
+  display: block;
+}
+
+/* フッター */
+#footer {
+  font-family: "NotoSansJP";
+  font-size: 20px;
+  padding: 5px 0;
+  background-color: #e4fcf5;
+  text-align: center;
+}
+
+#footer a {
+  text-decoration: none;
+  color: #000000;
+}
+
+/* レスポンシブ（SP表示の指定） */
+@media (max-width: 1024px) {
+
+  /* ヘッダー */
+  .header {
+    width: 100vw;
+    height: 149.00vw;
+    margin: 0;
+    padding: 0.5vw 0 0 0.5vw;
+    background-image: url("../images/header_bg_sp.jpg");
+  }
+
+  .container {
+    margin: 79vw 0 0 0;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .shampoo img {
+    margin: -7vw 6vw 0 0;
+    width: 39.73vw;
+    height: 37.06vw;
+  }
+
+
+  h2 {
+    font-family: "HannariMincho";
+    font-size: 8.53vw;
+    font-weight: normal;
+    margin: 4.5vw 0 0 0;
+    padding: 0 0 0 5vw;
+    letter-spacing: 0;
+    line-height: 10.5vw;
+  }
+
+  h1 {
+    font-family: "NotoSansJP";
+    font-size: 4.27vw;
+    font-weight: normal;
+    margin-top: 0vw;
+    padding: 1vw 0 0 5vw;
+    letter-spacing: 0.3vw;
+    color: #ffffff;
+
+  }
+
+  .tennen {
+    font-family: "NotoSansJP";
+    font-size: 4.27vw;
+    font-weight: normal;
+    margin-top: 7vw;
+    padding: 0 0 0 4vw;
+    letter-spacing: 0vw;
+    line-height: 4vw;
+    color: #ffffff;
+
+  }
+
+  .tennen1 {
+    font-family: "Philosopher";
+    font-size: 4.5vw;
+    font-weight: normal;
+    letter-spacing: 0.2vw;
+    padding: 4.5vw 0 0 0.6vw;
+    color: #ffffff;
+    top: 0.4vw;
+  }
+
+  .purpleline {
+    background: linear-gradient(transparent 83%, #b391a2 83%);
+    padding-bottom: 0.01vw;
+  }
+
+  .tennen2 {
+    width: 50vw;
+    font-family: "HannariMincho";
+    font-size: 6.4vw;
+    font-weight: normal;
+    margin-top: 2vw;
+    padding: 0 0 0 4.3vw;
+    letter-spacing: 0;
+    line-height: 8vw;
+    color: #ffffff;
+  }
+
+  .tennen2line {
+    background: linear-gradient(transparent 86%, #b391a2 86%);
+    padding-bottom: 0.4vw;
+  }
+
+
+
+  /* インスタ(sp) */
+
+  .insta {
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8.1vw;
+    padding-bottom: 8vw;
+  }
+
+  .instacopy {
+    margin-top: 0vw;
+    padding-top: 0;
+    padding-left: 3.8vw;
+    display: flex;
+    justify-content: center;
+  }
+
+  .instalogo img {
+    width: 31vw;
+    margin: 0vw;
+  }
+
+  .instalogo2 {
+    margin-left: 2vw;
+    padding-left: 0;
+    font-family: "HannariMincho";
+    font-size: 8vw;
+    font-weight: normal;
+    color: #000000;
+    letter-spacing: 0vw;
+  }
+
+  .instaword {
+    font-family: "NotoSansJP";
+    font-size: 3.73vw;
+    font-weight: normal;
+    margin: 3.5vw 0 0 0;
+    letter-spacing: 0;
+    text-align: center;
+  }
+
+  .insta .container {
+    margin: 0 auto 0 auto;
+    overflow-x: scroll;
+    width: 90vw;
+  }
+
+  .item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 150vw;
+
+  }
+
+
+  .box {
+    width: 29.33vw;
+    margin-right: 0.8vw;
+    padding-bottom: 4.3vw;
+    font-weight: normal;
+    font-size: 3.2vw;
+    border: solid 1px #000000;
+
+  }
+
+  .nail {
+    width: 28.8vw;
+  }
+
+
+  .icon {
+    display: flex;
+    align-items: center;
+    text-indent: 15%;
+  }
+
+  .icon-img2 {
+    margin-top: 2vw;
+    padding-left: 2vw;
+    width: 5.33vw;
+    height: 5.33vw;
+  }
+
+  .icon-txt {
+    margin-top: 0.5vw;
+
+  }
+
+
+  .sampletext {
+    font-family: "NotoSansJP";
+    margin-top: 1vw;
+    font-size: 3.2vw;
+    padding: 1vw 1.5vw 0 1.5vw;
+    line-height: 4vw;
+  }
+
+  .sampledate {
+    font-family: "NotoSansJP";
+    font-size: 3.2vw;
+    margin-top: 4.5vw;
+    padding-right: 1vw;
+    text-align: right;
+
+  }
+
+  /* キャンペーン(sp) */
+
+  .campaign-space {
+    margin: 0;
+    width: 100%;
+  }
+
+  .campaign {
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4.4vw;
+    padding-bottom: 6.5vw;
+  }
+
+  .campaign-word {
+
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../images/cv_ribbon_bg_sp.png");
+    background-size: 89.33vw 13.86vw;
+    background-repeat: no-repeat;
+    background-position: 5vw 3.5vw;
+  }
+
+  .campaign-word2 {
+    padding-left: 13.5vw;
+    font-family: "HannariMincho";
+    font-size: 5.6vw;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #ffffff;
+    line-height: 18vw;
+  }
+
+  .campaign-sample {
+    padding-top: 14vw;
+    padding-left: 5.5vw;
+    width: 36vw;
+  }
+
+  .sample200 {
+    margin-top: 0.2vw;
+    padding-top: 1vw;
+    padding-left: 5.3vw;
+    letter-spacing: 0.21vw;
+    font-size: 3.2vw;
+  }
+
+  .container2a {
+    width: 55vw;
+  }
+
+  .cam-bio {
+    font-family: "HannariMincho";
+    font-size: 4.53vw;
+    font-weight: normal;
+    margin-top: 3.3vw;
+    margin-bottom: 0;
+    padding: 0 0 0 0.6vw;
+    letter-spacing: 0;
+    line-height: 4.5vw;
+  }
+
+  .cam-bio2 {
+    font-family: "NotoSansJP";
+    font-size: 3.2vw;
+    font-weight: normal;
+    letter-spacing: 0.19vw;
+    padding-left: 1vw;
+  }
+
+  hr {
+    width: 49vw;
+    margin-top: 1.1vw;
+    margin-bottom: 3vw;
+    margin-left: 1.5vw;
+    padding-top: 0;
+    padding-left: 0vw;
+    border: solid thin 0.27vw;
+  }
+
+  .container3 {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .bio-price {
+    font-family: Philosopher, NotoSansJP;
+    font-size: 3.73vw;
+    font-weight: normal;
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 1.5vw;
+    letter-spacing: 0.25vw;
+    line-height: 0.6vw;
+  }
+
+  .bio-first {
+    letter-spacing: 0.27vw;
+    padding-top: 0px;
+    font-size: 4.27vw;
+  }
+
+  .bio-price2 {
+    font-family: "Philosopher";
+    font-size: 14.67vw;
+    font-weight: normal;
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 4vw;
+    line-height: 11vw;
+    letter-spacing: 0.35vw;
+    color: #ff0000;
+  }
+
+  .cam-bio3 {
+    font-family: "NotoSansJP";
+    font-size: 6.67vw;
+    font-weight: normal;
+    letter-spacing: 0;
+    padding-left: 0;
+    color: #ff0000;
+  }
+
+  .cam-bio4 {
+    font-family: "NotoSansJP";
+    font-size: 2.67vw;
+    font-weight: normal;
+    letter-spacing: 0;
+    padding-left: 0;
+    color: black;
+  }
+
+  .try-icon {
+    margin: 0.3vw 1vw 0 1.2vw;
+    width: 50.93vw;
+    height: 8vw;
+    border-radius: 2.67vw;
+    background: linear-gradient(to bottom, #afc8bb, #91b3a2);
+    line-height: 0;
+  }
+
+  .try-word {
+    font-family: "HannariMincho";
+    font-size: 4.8vw;
+    font-weight: normal;
+    color: #ffffff;
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 8.5vw;
+    line-height: 7.5vw;
+    letter-spacing: 1vw;
+  }
+
+  .kaiyaku {
+    margin-top: 3vw;
+    padding-left: 1.5vw;
+    font-size: 4.27vw;
+    color: #bc0000;
+    letter-spacing: 0.27vw;
+    line-height: 3vw;
+  }
+
+  .kaiyakuline {
+    background: linear-gradient(transparent 83%, #b391a2 83%);
+    padding-bottom: 0.05vw;
+  }
+
+  .kaiyaku2 {
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 1.5vw;
+    font-size: 3.2vw;
+    letter-spacing: 0.21vw;
+    line-height: 0;
+  }
+
+  /* 自分の髪に満足(sp) */
+
+  .myhair-space {
+    margin: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    background-image: url("../images/empathy_bg_sp.jpg");
+    background-size: cover;
+  }
+
+  .myhair {
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 7vw;
+    padding-bottom: 5.6vw;
+  }
+
+  .myhair-title {
+    margin-top: 0;
+    padding-top: 0;
+    text-align: center;
+    font-family: "HannariMincho";
+    font-size: 4.8vw;
+    font-weight: normal;
+    letter-spacing: 0;
+    color: #63977e;
+  }
+
+  .myhair-line {
+    background: linear-gradient(transparent 90%, #b391a2 90%);
+    padding-bottom: 1.2vw;
+  }
+
+  .hair-list {
+    list-style: none;
+    margin-top: 6.2vw;
+    margin-left: 0;
+    padding-left: 5.5vw;
+  }
+
+  .hair-list01 {
+    display: flex;
+    align-items: center;
+    column-gap: 2.3vw;
+  }
+
+  .hair-list01::before {
+    content: "";
+    background-size: cover;
+    background-image: url(../images/empathy_check.png);
+    width: 3.73vw;
+    height: 3.47vw;
+  }
+
+  .hairlist-text {
+    font-family: "NotoSansJP";
+    font-size: 3.73vw;
+    font-weight: normal;
+    letter-spacing: 0.3vw;
+    line-height: 9.1vw;
+  }
+
+  .hairtext {
+    font-family: "NotoSansJP";
+    font-size: 3.73vw;
+    font-weight: normal;
+    letter-spacing: 0.3vw;
+    margin-top: 0;
+    line-height: 0vw;
+    padding-left: 5.5vw;
+  }
+
+  /* 原因はシャンプー(sp) */
+
+  .cause-space {
+    margin: 0;
+    width: 100%;
+  }
+
+  .cause {
+    position: relative;
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 7.1vw;
+    padding-bottom: 0;
+  }
+
+  .cause-title {
+    margin-top: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "HannariMincho";
+    font-size: 4.8vw;
+    font-weight: normal;
+    letter-spacing: 0.15vw;
+    color: #63977e;
+  }
+
+  .cause-line {
+    background: linear-gradient(transparent 86%, #b391a2 86%);
+    padding-bottom: 0.9vw;
+  }
+
+  .cause .container {
+    z-index: 30;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 5.1vw;
+  }
+
+  .cause-text {
+    width: 90.5vw;
+    font-family: "NotoSansJP";
+    font-size: 3.73vw;
+    padding-top: 0vw;
+    padding-bottom: 11.5vw;
+    padding-left: 0.5vw;
+    letter-spacing: -0.05vw;
+    line-height: 4.9vw;
+  }
+
+  .exhibit01 {
+    padding-top: 0;
+  }
+
+  .exhibitimage {
+    width: 89.33vw;
+    height: 62.67vw;
+  }
+
+  .cause .container2 {
+    width: 36.33vw;
+    height: 12.75vw;
+    position: absolute;
+    bottom: -4.7vw;
+    left: 50vw;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    background-image: url(../images/exhibit_arrow.png);
+    background-size: cover;
+  }
+
+  .triangle-text {
+    font-family: "HannariMincho";
+    color: #ffffff;
+    font-size: 4.8vw;
+    letter-spacing: 0;
+    padding-left: 11vw;
+    padding-top: 1.5vw
+  }
+
+  /* 年齢にあわせたシャンプー(sp) */
+
+  .age-space {
+    margin: 0;
+    width: 100%;
+  }
+
+  .age {
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 7vw;
+    padding-bottom: 5.75vw;
+  }
+
+  .age-title {
+    margin-top: 0;
+    font-family: "HannariMincho";
+    font-size: 4.8vw;
+    font-weight: normal;
+    padding-left: 13vw;
+    letter-spacing: 0.15vw;
+    color: #63977e;
+  }
+
+  .age-line {
+    background: linear-gradient(transparent 86%, #b391a2 86%);
+    padding-bottom: 0.8vw;
+  }
+
+  .age .container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 1vw auto;
+    padding-top: 1.3vw;
+    padding-bottom: 0;
+  }
+
+  .exhibit2image {
+    margin: auto;
+    width: 89.33vw;
+    height: 62.67vw;
+    padding-top: 0vw;
+  }
+
+  .age-text {
+    width: 90vw;
+    font-family: "NotoSansJP";
+    font-size: 3.73vw;
+    font-weight: normal;
+    letter-spacing: 0;
+    line-height: 4.5vw;
+    padding-top: 1vw;
+    padding-left: 5vw;
+  }
+
+  .age-text2 {
+    padding-top: 1vw;
+  }
+
+  /* こだわりポイント(sp)*/
+
+  .point-space {
+    margin: 0;
+    width: 100%;
+    background-color: #fafafa;
+  }
+
+  .point {
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 6.5vw;
+    padding-bottom: 1vw;
+    background-color: #fafafa;
+  }
+
+  .point-title {
+    width: 65vw;
+    text-align: center;
+    margin-top: 0;
+    padding-left: 17.5vw;
+    font-family: "HannariMincho";
+    font-size: 4.8vw;
+    font-weight: normal;
+    letter-spacing: 0.02vw;
+    line-height: 6.5vw;
+    color: #63977e;
+  }
+
+  .point .container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 9vw;
+    margin-bottom: 5.8vw;
+    padding-top: 0vw;
+    padding-bottom: 0vw;
+  }
+
+  .point h3 {
+    margin-top: 0;
+    margin-bottom: 6.3vw;
+    padding-left: 5vw;
+    font-family: "HannariMincho";
+    font-size: 4.8vw;
+    font-weight: normal;
+    letter-spacing: 0.1vw;
+  }
+
+  .point-line {
+    background: linear-gradient(transparent 86%, #b391a2 86%);
+    padding-bottom: 0.8vw;
+  }
+
+  .point hr {
+    width: 89.33vw;
+    margin-top: 0vw;
+    margin-bottom: 0vw;
+    margin-left: 5.2vw;
+    padding-top: 0;
+    border: solid thin 1px;
+  }
+
+  .point-text2 {
+    width: 89vw;
+    font-family: "NotoSansJP";
+    font-size: 3.73vw;
+    letter-spacing: 0;
+    line-height: 4.8vw;
+    padding-left: 5.5vw;
+    margin-top: 1.6vw;
+    margin-bottom: 2.6vw;
+  }
+
+  .benefit1 {
+    padding-left: 5.5vw;
+    padding-top: 0;
+    width: 89.33vw;
+    height: 59.73vw;
+  }
+
+  .dirt-text {
+    font-family: "NotoSansJP";
+    font-size: 3.73vw;
+    margin-top: 1vw;
+    padding-left: 5vw;
+    letter-spacing: 0.1vw;
+  }
+
+
+  .point .container2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0vw;
+    margin-bottom: 6.5vw;
+    padding-top: 0vw;
+    padding-bottom: 0vw;
+  }
+
+  .benefit2 {
+    padding-left: 5.5vw;
+    padding-top: 0;
+    width: 89.33vw;
+    height: 59.73vw;
+  }
+
+  .damage-text {
+    font-family: "NotoSansJP";
+    font-size: 3.73vw;
+    margin-top: 1vw;
+    padding-left: 5.5vw;
+    letter-spacing: 0vw;
+  }
+
+  .point .container3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0vw;
+    margin-bottom: 6.5vw;
+    padding-top: 0vw;
+    padding-bottom: 0vw;
+  }
+
+  .point .container3 .point-text2 {
+    margin-bottom: 3vw;
+  }
+
+
+  .plant-text {
+    font-family: "NotoSansJP";
+    font-size: 3.73vw;
+    margin-top: 1vw;
+    padding-left: 5.5vw;
+    letter-spacing: 0vw;
+  }
+
+
+  .point .container4 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0vw;
+    margin-bottom: 3.5vw;
+    padding-top: 0vw;
+    padding-bottom: 0vw;
+  }
+
+  .point .container4 .point-text2 {
+    margin-bottom: 3.2vw;
+  }
+
+
+  .strict {
+    line-break: strict;
+
+  }
+
+  .collagen-text {
+    font-family: "NotoSansJP";
+    font-size: 3.73vw;
+    margin-top: 1vw;
+    padding-left: 5.7vw;
+    letter-spacing: 0vw;
+    line-height: 3.73vw;
+    width: 89vw;
+
+  }
+
+  /* シャンプーの使い方 (sp)*/
+
+  .usage-space {
+    margin: 0;
+    width: 100%;
+    background: linear-gradient(to bottom, #ffffff, #e5fbf5);
+  }
+
+  .usage {
+    position: relative;
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4.5vw;
+    padding-bottom: 5vw;
+    background: linear-gradient(to bottom, #ffffff, #e5fbf5);
+  }
+
+  .usage h2 {
+    margin-top: 0;
+    text-align: center;
+    font-family: "HannariMincho";
+    font-size: 4.8vw;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #63977e;
+    padding-left: 0.5vw;
+  }
+
+
+  .usage .container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .use-step1 {
+    padding-top: 9vw;
+    padding-left: 1vw;
+    width: 89.33vw;
+    height: 44.8vw;
+
+  }
+
+  .usage .container h3 {
+    position: absolute;
+    top: 20.5vw;
+    left: 3.5vw;
+    font-family: "Philosopher";
+    font-size: 4.27vw;
+    font-style: italic;
+    font-weight: normal;
+    line-height: 0;
+    padding-bottom: 0;
+
+  }
+
+  .stepline {
+    text-decoration: underline;
+  }
+
+  .step-text {
+    width: 89.33vw;
+    font-family: "NotoSansJP";
+    font-size: 3.73vw;
+    font-weight: normal;
+    letter-spacing: 0;
+    line-height: 5.3vw;
+    padding-left: 0.5vw;
+    margin-top: 1.3vw;
+  }
+
+  .usage hr {
+    width: 89.33vw;
+    margin-top: 1vw;
+    padding-top: 0;
+    margin-left: 5vw;
+  }
+
+  .usage .container2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .use-step2 {
+    padding-top: 16.5vw;
+    padding-left: 1vw;
+    width: 89.33vw;
+    height: 44.8vw;
+  }
+
+  .usage .container2 .step-text {
+    line-height: 5.3vw;
+    margin-top: 1vw;
+    margin-bottom: 4.5vw;
+  }
+
+  .usage .container2 h3 {
+    position: absolute;
+    top: 94vw;
+    left: 3.5vw;
+    font-family: "Philosopher";
+    font-size: 4.27vw;
+    font-style: italic;
+    font-weight: normal;
+    line-height: 0;
+    padding-bottom: 0;
+
+  }
+
+  .usage .container3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+
+  .usage .container3 h3 {
+    position: absolute;
+    top: 171vw;
+    left: 3.5vw;
+    font-family: "Philosopher";
+    font-size: 4.27vw;
+    font-style: italic;
+    font-weight: normal;
+    line-height: 0;
+    padding-bottom: 0;
+
+  }
+
+  .usage .container3 .step-text {
+    margin-bottom: 2.8vw;
+  }
+
+  .usage .container4 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+
+  .usage .container4 h3 {
+    position: absolute;
+    top: 251.5vw;
+    left: 3.5vw;
+    font-family: "Philosopher";
+    font-size: 4.27vw;
+    font-style: italic;
+    font-weight: normal;
+    line-height: 0;
+    padding-bottom: 0vw;
+    margin-bottom: 0;
+
+  }
+
+  .usage .container4 .step-text {
+    width: 89.5vw;
+    margin-bottom: 3vw;
+  }
+
+  .usage .container5 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+
+  .usage .container5 h3 {
+    position: absolute;
+    top: 332vw;
+    left: 3.5vw;
+    font-family: "Philosopher";
+    font-size: 4.27vw;
+    font-style: italic;
+    font-weight: normal;
+    line-height: 0;
+    padding-bottom: 0;
+
+  }
+
+  .usage .container5 .step-text {
+    width: 89.5vw;
+    margin-top: 2vw;
+    margin-bottom: 3vw;
+  }
+
+
+
+  /* よくあるご質問(sp)*/
+
+  .question-space {
+    margin: 0;
+    width: 100%;
+    background-color: #f1f0ed;
+  }
+
+  .question {
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+    background-color: #f1f0ed;
+  }
+
+  .question h2 {
+    margin-top: 0;
+    text-align: center;
+    font-family: "HannariMincho";
+    font-size: 4.8vw;
+    font-weight: normal;
+    letter-spacing: 0;
+    color: #63977e;
+    padding-bottom: 3.2vw;
+    padding-left: 0px;
+  }
+
+
+  .question .container_q {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 5.5vw;
+
+  }
+
+  .q-icon {
+    font-family: "Philosopher";
+    font-size: 4.8vw;
+    letter-spacing: 0;
+    color: #5d8974;
+    padding-right: 2.7vw;
+    margin-bottom: 1.6vw;
+  }
+
+
+  .question-text {
+    width: 82.1vw;
+    letter-spacing: 0;
+    line-height: 5.5vw;
+    padding-top: 0;
+    font-size: 3.73vw;
+  }
+
+  .question .container_a {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 0;
+    padding-top: 0;
+    margin-left: 5.5vw;
+
+  }
+
+  .a-icon {
+    font-family: "Philosopher";
+    font-size: 4.8vw;
+    letter-spacing: 0px;
+    color: #9d3e3e;
+    padding-right: 2.5vw;
+  }
+
+  .answer-text {
+    width: 82.1vw;
+    letter-spacing: 0;
+    line-height: 5.2vw;
+    padding-top: 0;
+    padding-bottom: 3.6vw;
+    font-size: 3.73vw;
+  }
+
+  .question hr {
+    width: 89.33vw;
+    margin-left: 5.2vw;
+    padding-top: 0;
+    margin-bottom: 4.23vw;
+    border: solid thin 1px;
+  }
+
+  .answer-text-bottom {
+    padding-bottom: 4vw;
+  }
+
+
+  /* お客様情報の入力(sp)*/
+
+  .form-space {
+    margin: 0;
+    width: 100%;
+  }
+
+  .customer-form {
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 8vw;
+    padding-bottom: 0vw;
+    margin-bottom: 3vw;
+  }
+
+  .customer-form h2 {
+    width: 89.33vw;
+    text-align: center;
+    margin-top: 0;
+    margin-left: 5.33vw;
+    padding: 4vw 0vw;
+    line-height: 0;
+    font-family: "GenShinGothic-Bold";
+    color: black;
+    font-size: 4.8vw;
+    background-color: #f1efed;
+    text-decoration: none;
+    border-radius: 2.67vw;
+    letter-spacing: 1.3vw;
+  }
+
+  #contact_form_area {
+    width: 89.33vw;
+    margin-top: 10.5vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10.5vw;
+    border: 0.27vw solid #999;
+    box-sizing: border-box;
+    border-radius: 2.67vw;
+    padding: 7vw 2.5vw 5vw 2.5vw;
+  }
+
+  .form_column_name {
+    display: block;
+    align-items: center;
+    padding-bottom: 2.5vw;
+  }
+
+  .form_column_hurigana {
+    display: block;
+    align-items: center;
+    padding-bottom: 2.5vw;
+  }
+
+  .form_column_postcode {
+    display: block;
+    align-items: center;
+    padding-bottom: 2.5vw;
+  }
+
+  .form_column_prefectures {
+    display: block;
+    align-items: center;
+    padding-bottom: 2vw;
+  }
+
+  .form_column_cityname {
+    display: block;
+    align-items: center;
+    padding-bottom: 1.8vw;
+  }
+
+  .form_column_apartment {
+    display: block;
+    align-items: center;
+    padding-bottom: 2.5vw;
+  }
+
+  .form_column_telno {
+    display: block;
+    align-items: center;
+    padding-bottom: 2.5vw;
+  }
+
+  .form_column_email {
+    display: block;
+    align-items: center;
+    padding-bottom: 2.5vw;
+  }
+
+  .form_column_passcode {
+    display: block;
+    align-items: center;
+    padding-bottom: 2.5vw;
+  }
+
+  .form_column_parts {
+    width: 35vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.8vw 0 1.5vw 0;
+
+  }
+
+  .form_label {
+    font-family: "GenShinGothic-Medium";
+    font-size: 3.2vw;
+  }
+
+  .required_label {
+    font-family: "GenShinGothic-Medium";
+    color: #ffffff;
+    font-size: 3.2vw;
+    background-color: #ff0000;
+    text-decoration: none;
+    border-radius: 1vw;
+    padding: 0.5vw 0.65vw;
+    margin-left: 2.5vw;
+  }
+
+  .any_label {
+    font-family: "GenShinGothic-Medium";
+    color: #ffffff;
+    font-size: 3.2vw;
+    background-color: #808080;
+    text-decoration: none;
+    border-radius: 1vw;
+    padding: 0.5vw 0.65vw;
+    margin-left: 2.5vw;
+  }
+
+
+  .form_input {
+    width: 100%;
+    margin-left: 0;
+    font-size: 3.2vw;
+  }
+
+  .form_parts {
+    width: 100%;
+    height: 6.4vw;
+    padding-left: 2.5vw;
+    border: 0.27vw solid #ccc;
+    box-sizing: border-box;
+    border-radius: 0.8vw;
+    line-height: 0;
+  }
+
+  .form_parts::placeholder {
+    font-size: 3.2vw;
+  }
+
+  .formbox_length {
+    width: 100%;
+  }
+
+  .formbox_bottom {
+    padding-bottom: 7.3vw;
+  }
+
+  #payment_form_area {
+    width: 50vw;
+    text-align: left;
+    font-size: 3.2vw;
+    font-family: "GenShinGothic-Medium";
+    margin-top: 8.5vw;
+    padding-left: 5vw;
+    margin-bottom: 0vw;
+    padding-bottom: 0;
+  }
+
+  #form_submit {
+    padding-bottom: 27.3px;
+    margin-top: 0;
+  }
+
+  #form_has_error {
+    height: 0.5vw;
+    padding-bottom: 1vw;
+    margin: 0;
+    color: #f00;
+    font-size: 1.5vw;
+  }
+
+  #submit_button {
+    border: none;
+    width: 40vw;
+    height: 8vw;
+    font-family: "GenShinGothic-Bold";
+    color: #fff;
+    background: linear-gradient(to bottom, #91b3a2, #31a169);
+    font-size: 4.27vw;
+    border-radius: 2.67vw;
+    letter-spacing: 0.35vw;
+    text-align: center;
+  }
+
+  input[type="radio"] {
+    width: 4vw;
+    height: 4vw;
+    position: relative;
+    vertical-align: middle;
+    margin-right: 2.5vw;
+    margin-left: 3vw;
+    margin-bottom: 2.5vw;
+    margin-top: 2.5vw;
+  }
+
+  .radio_lb {
+    display: block;
+  }
+
+  #prefectures {
+    font-size: 3.2vw;
+    padding: 0 1.5vw 0vw 1.5vw;
+  }
+
+  /* フッター */
+  #footer {
+    font-family: "NotoSansJP";
+    font-size: 2.67vw;
+    padding: 2vw 0;
+    background-color: #e4fcf5;
+    text-align: center;
+  }
+
+  #footer a {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  #footer p {
+    padding-left: 12.5vw;
+    width: 75vw;
+    line-height: 4.6vw;
+    text-align: center;
+  }
+
+}
